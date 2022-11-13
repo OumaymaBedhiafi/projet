@@ -1,7 +1,7 @@
 ---
-    - hosts: playbook
+    - hosts: 192.168.56.51
       gather_facts: true
 
       become: true
       roles:
-      - { role:build }
+      - { role: build }
