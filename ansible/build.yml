@@ -1,5 +1,5 @@
 ---
-    - hosts: 192.168.56.51
+    - hosts: playbook
       gather_facts: true
 
       become: true
