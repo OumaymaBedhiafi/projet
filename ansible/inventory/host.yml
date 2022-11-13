@@ -1,5 +1,5 @@
 localhost ansible_connection=local
-[Server]
+[playbook]
 192.168.56.51
 [Server:vars]
 ansible_python_interpreter= /usr/bin/python3
