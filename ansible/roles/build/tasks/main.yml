@@ -2,4 +2,4 @@
 # tasks file for build
 #buid project
 - name: build app
-  shell: ng build --prod && chmod 777 -R /var/lib/jenkins/workspace/projet/roles/tasks/
+  shell: ng build --prod && chmod 777 -R /var/lib/jenkins/workspace/projet/dist/
