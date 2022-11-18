@@ -1,5 +1,8 @@
----
+
 # tasks file for build
 #buid project
 - name: build app
-  shell: ng build --configuration production
+  shell: ng build 
+  environment:
+    PATH: '/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/bin:/home/vagrant/node-v16.14.2-linux-x64/bin'
+       

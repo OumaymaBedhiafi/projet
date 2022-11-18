@@ -1,0 +1,8 @@
+
+# tasks file for docker-registry
+- name: tag image
+  command: docker tag devops oumaima12/devops:v1	
+- name: push to a registry
+  command: docker push oumaima12/devops:v1 
+    
+
