@@ -4,7 +4,7 @@
   docker_image:
     name: devops
     build:
-     path: /var/lib/jenkins/workspace/projet
+     path: /var/lib/jenkins/workspace/oumaima
      pull: no
     source: build
     state: present
