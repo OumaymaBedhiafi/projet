@@ -1,4 +1,9 @@
 pipeline {
+    environment { 
+
+        DOCKERHUB_CREDENTIALS = credentials('oumaima12')
+    }
+
     agent any
 
     stages {

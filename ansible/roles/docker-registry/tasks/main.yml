@@ -1,7 +1,12 @@
 
 # tasks file for docker-registry
+
 - name: tag image
   command: docker tag devops oumaima12/devops:v1	
+
+- name: login
+  command: docker login -u $DOCKERHUB_CREDENTIALS_USR --password $DOCKERHUB_CREDENTIALS_PSW
+
 - name: push to a registry
   command: docker push oumaima12/devops:v1 
     
